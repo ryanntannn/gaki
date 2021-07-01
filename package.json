@@ -1,0 +1,29 @@
+{
+  "name": "gaki",
+  "version": "0.0.0",
+  "description": "Gamification platform for schools",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanntannn/gaki.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanntannn/gaki/issues"
+  },
+  "homepage": "https://github.com/ryanntannn/gaki#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8"
+  }
+}
